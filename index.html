@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopes Calcula</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<main>
+    <div>
+		<form action="" name="Calculator">
+			<div>
+				<input type="text" class="text maincolor" name="text1" id="text1" disabled>
+				<input type="button" class="cinza" name="text12" value="C" id="clear"><br>
+			</div>	
+			<div>
+				<input type="button" class="btn maincolor" name="btn7" value="7">	
+				<input type="button" class="btn maincolor" name="btn8" value="8">
+				<input type="button" class="btn maincolor" name="btn9" value="9">
+				<input type="button" class="btn laranja" name="divbtn" value="/"><br>
+			</div>
+			<div>
+				<input type="button" class="btn maincolor" name="btn4" value="4">
+				<input type="button" class="btn maincolor" name="btn5" value="5">	
+				<input type="button" class="btn maincolor" name="btn6" value="6">
+				<input type="button" class="btn laranja" name="mulbtn" value="*"><br>
+			</div>
+			<div>	
+				<input type="button" class="btn maincolor" name="btn1" value="1">
+				<input type="button" class="btn maincolor" name="btn2" value="2">
+				<input type="button" class="btn maincolor" name="btn3" value="3">
+				<input type="button" class="btn laranja" name="subbtn" value="-"><br>
+			</div>
+			<div>	
+				<input type="button" class="btn laranja" name="dot" value=".">
+				<input type="button" class="btn maincolor" name="btn0" value="0">
+				<input type="button" class="laranja" name="eqlbtn" value="=" id="igual" onclick="text1.value=eval(text1.value)">
+				<input type="button" class="btn laranja" name="addbtn" value="+"><br>
+			</div>	
+		</form>
+	</div>
+</main>		
+</body>
+<script src="./js/script.js"></script>
+</html>
